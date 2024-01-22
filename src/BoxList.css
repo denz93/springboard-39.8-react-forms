@@ -1,0 +1,7 @@
+.box-list {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}

@@ -1,0 +1,11 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: fit-content;
+  max-width: 600px;
+}
+.form-control {
+  display: flex;
+  gap: 1em;
+}
