@@ -1,0 +1,19 @@
+.form-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em 2.4em;
+  border: 1px dashed #8d8b8b2d;
+
+}
+.form-container h2 {
+  position: absolute;
+  margin: 0;
+  padding: .4em .6em;
+  width: max-content;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  background-color: #242424;
+}

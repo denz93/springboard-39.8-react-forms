@@ -1,0 +1,21 @@
+.todo {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 0.5em;
+}
+
+.todo.deleted {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  opacity: 0;
+  transform: translateX(100%);
+}

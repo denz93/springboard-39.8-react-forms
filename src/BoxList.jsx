@@ -7,8 +7,11 @@ export default function BoxList() {
   const [boxes, setBoxes] = useState([])
 
   return <div>
-    <h2 style={{textAlign: 'center'}}>New Box Form</h2>
-    <NewBoxForm onSubmit={(box) => setBoxes([...boxes, box])}/>
+    <div className="form-container">
+      <h2 style={{textAlign: 'center'}}>New Box Form</h2>
+      <NewBoxForm onSubmit={(box) => setBoxes([...boxes, box])}/>
+
+    </div>
     <h2 style={{textAlign: 'center'}}>List of Boxes</h2>
     <ul className="box-list">
       {boxes.length === 0 && <li style={{fontStyle: 'italic'}}>No boxes yet</li>}
